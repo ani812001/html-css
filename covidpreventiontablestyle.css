@@ -1,0 +1,77 @@
+ @import url(https:fonts.googleapis.com/css?family=Ballo+Thambi+28display=swap);
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    background: linear-gradient(to bottom, #023B64, #192B5D);
+    font-family: 'Baloo THambi 2',cursive;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+
+}
+.fullbox{
+    width: 100%;
+}
+.fullbox h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    margin: 10px 0;
+
+}
+.fullbox p{
+    text-align: center;
+    color: #fff ;
+}
+.box{
+    width: 23%;
+    margin: 1%;
+    color: #fff;
+    border-radius: 12px;
+    box-shadow:  0px 0px  13px -3px rgba(0,0,0,75) ;
+    transition: 0.3s;
+}
+.box i :before{
+    margin-left: 0;
+    font-size: 76px;
+    text-align: center;
+}
+.boxhover{
+    transform: translateY(-10px);
+}
+.box span {
+    font-size: 30px;
+}
+.box i {
+    display: block;
+    padding: 10%;
+    background-color: #ffffff47;
+    margin: 6%;
+    text-align: center;
+    border-radius: 12px;
+}
+.box p{
+    margin: 14px;
+    text-align: center;
+}
+.b1{
+    background-color: #a9266f;
+}
+.b2{
+    background-color: #d0502b;
+}
+.b3{
+    background-color: #2655c0;
+}
+.b4{
+    background-color: #25781f;
+
+}
